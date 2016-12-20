@@ -1,0 +1,120 @@
+<html>
+<head>
+<title></title>
+<meta name="author" content="Myriam Dupont">
+</head>
+<body>
+<mains>
+<h1>
+La page de Julio
+</h1>
+<div itemscope itemtype="http://schema.org/Person">
+<p>Mon nom est <span itemprop="name">Julio</span></p>
+<p>Je suis  <i itemprop="jobTitle">webdesigner</i></p>
+<p>Je suis <span itemprop="nationality">belge</p>
+</div>
+<section class="horaire"><table>
+<div>
+<caption>
+Planning de mon weekend
+</caption>
+<thead>
+<tr>
+<th>
+&nbsp;
+</th>
+<th scope="col">
+Samedi
+</th>
+<th scope="col">
+Dimanche
+</th>
+</tr>
+</thead>
+<tbody>
+<tg>
+<th id="l1">
+8-10
+</th>
+<td rowspan="2">
+Sport
+</td>
+<td headers="">
+Repos
+</td>
+</tr>
+<tr>
+<th id="l2">
+10-12
+</th>
+<td rowspan="3">
+Étude
+</td>
+</tr>
+<tr>
+<th id="l3">
+13-15
+</th>
+<td rowspan="2" >
+Repos
+</td>
+</tr>
+<tr>
+<th id="l4">
+15-19
+</th>
+</tr>
+<tr>
+<th>
+19-24
+</th>
+<td>
+Sortie
+</td>
+<td>
+Playstation
+</td>
+</tr>
+</tbody>
+</table>
+<div class="contact">
+<form method="poste" action="#">
+<ul>
+<li>
+<input id="civilitemlle" type="radio" checked="checked" value="mlle" name="civilitee"
+<label for="civiliteMlle">Mademoiselle</label>
+</li>
+<li>
+<input id="civilitemme type="radio" value="mme" name="civilite">
+<label for="civilitemme">Madame</label>
+</li>
+<li>
+<input id="civilitemr" type="radio" value="mr" name="civilite">
+<label for="civilitemr">Monsieur</label>
+</li>
+</ul>
+<p class="mail">
+<label for="email" scope="row">Adresse mail*</label>
+<input id="email" type="email" placeholder="you@example.be" aria-required="true" required="required" size="30" name="mail">
+</p>
+<p class="pays">
+<label for="pays">Pays&nbsp;:</label>
+<select  name="pays" id="pays" size="1">
+<option value="BE" selected="selected">Belgique</option>
+<option value="FR"><br>France</option>
+<option value="LU">Luxembourg</option>
+</select>
+</p>
+<p class="commentaire">
+<label for="comment"><br>Commentaire</label>
+<textarea id="comment" placeholder="J’ai aimé ou pas parce que …" aria-required="true" rows="4" cols="45" name="comment"></textarea>
+</p>
+<p class="newsletter">
+<input id="stayInformed" type="checkbox" value="true" name="stayInformed" checked="checked">
+<label for="stayInformed">J’aimerais m'abonner à ce flux d'actualité</label>
+<p>
+<p><input type="submit" value="Ajouter votre commentaire"></p>
+</form>
+</div>
+</body>
+</html>
